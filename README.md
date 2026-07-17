@@ -39,7 +39,7 @@ keypad = Keypad(row_pins, column_pins, keys)
 
 while True:
     key_pressed = keypad.read_keypad()
-    if key_pressed:
+    if key_pressed =! None:
         print("Key pressed:", key_pressed)
     sleep(0.1)  # debounce and delay
 ```
